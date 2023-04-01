@@ -8,12 +8,18 @@ public class Exercicio03 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int number1 = sc.nextInt();
+		System.out.println("Informe o valor de N: ");
 
-		if (number1%2 == 0); {
-			System.out.println("O número"+number1+"é par.");
+		int N = sc.nextInt();
+
+		int soma = 0;
+		for (int i=1; i<=N; i++) {
+			soma = soma + i;
+
 		}
+		System.out.println ("Soma dos números: "+soma);
 
+		sc.close();
 	}
 }
 
